@@ -31,7 +31,7 @@ var enableLog = true;
 console.warn = function () {
     if (enableLog) {
         var date = new Date();
-        var time = Reset + FgBlue + date.toLocavarimeString() + " " + date.getUTCMilliseconds() + " ms ->" + FgYellow;
+        var time = Reset + FgBlue + date.toLocaleTimeString() + " " + date.getUTCMilliseconds() + " ms ->" + FgYellow;
         return Function.prototype.bind.call(console.log, console, time);
     } else {
         return Function.prototype.bind.call(function () {
@@ -43,7 +43,7 @@ console.warn = function () {
 console.error = function () {
     if (enableLog) {
         var date = new Date()
-        var time = Reset + FgBlue + date.toLocavarimeString() + " " + date.getUTCMilliseconds() + " ms ->" + FgRed;
+        var time = Reset + FgBlue + date.toLocaleTimeString() + " " + date.getUTCMilliseconds() + " ms ->" + FgRed;
         return Function.prototype.bind.call(console.log, console, time);
     } else {
         return Function.prototype.bind.call(function () {
@@ -55,7 +55,7 @@ console.error = function () {
 console.debug = function () {
     if (enableLog) {
         var date = new Date()
-        var time = Reset + FgBlue + date.toLocavarimeString() + " " + date.getUTCMilliseconds() + " ms ->" + FgMagenta;
+        var time = Reset + FgBlue + date.toLocaleTimeString() + " " + date.getUTCMilliseconds() + " ms ->" + FgMagenta;
         return Function.prototype.bind.call(console.log, console, time);
     } else {
         return Function.prototype.bind.call(function () {
@@ -67,7 +67,7 @@ console.debug = function () {
 console.log = function () {
     if (enableLog) {
         var date = new Date()
-        var time = Reset + FgBlue + date.toLocavarimeString() + " " + date.getUTCMilliseconds() + " ms ->" + FgGreen;
+        var time = Reset + FgBlue + date.toLocaleTimeString() + " " + date.getUTCMilliseconds() + " ms ->" + FgGreen;
         return Function.prototype.bind.call(console.log, console, time);
     } else {
         return Function.prototype.bind.call(function () {

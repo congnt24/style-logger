@@ -7,5 +7,16 @@
     "test": "node test.js"
   },
   "author": "@congnt",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/congnt24/style-logger.git"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "bugs": {
+    "url": "https://github.com/congnt24/style-logger/issues"
+  },
+  "homepage": "https://github.com/congnt24/style-logger#readme"
 }

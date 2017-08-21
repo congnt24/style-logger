@@ -1,3 +1,3 @@
-# cutilJs
-Some utilities for js
-Coloring console.log, console.error, console.warn and console.debug
+# Usage
+require this package in your app.js
+So you can use console.log, console.error, console.warn and console.debug
